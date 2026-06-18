@@ -1,0 +1,29 @@
+name: pluspay_a2a_example
+description: "Demonstrates how to use the pluspay_a2a plugin."
+publish_to: 'none'
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  uuid: ^4.5.1
+  # pluspay_a2a:
+  #   path: ../
+  pluspay_a2a:
+    git:
+      url: https://github.com/plus-pay-tr/pluspay_a2a.git
+      ref: 0.2.1  
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
